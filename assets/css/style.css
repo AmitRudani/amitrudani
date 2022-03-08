@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .card:hover
 {
-  transform:translateY(-10px);
   box-shadow:0 15px 35px rgba(0,0,0,.5);
 }
 .card:before
@@ -85,30 +84,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 .percent .num h2
 {
-  color:#777;
+  color:#fff;
   font-weight:700;
   font-size:40px;
   transition:0.5s;
 }
 .card:hover .percent .num h2
 {
-  color:#fff;
   font-size:60px;
 }
 .percent .num h2 span
 {
-  color:#777;
+  color:#fff;
   font-size:24px;
   transition:0.5s;
 }
-.card:hover .percent .num h2 span
+/* .card:hover .percent .num h2 span
 {
   color:#fff;
-}
+} */
 .text
 {
   position:relative;
-  color:#777;
+  color:#fff;
   margin-top:20px;
   font-weight:700;
   font-size:18px;
@@ -116,10 +114,10 @@ h1, h2, h3, h4, h5, h6 {
   text-transform:uppercase;
   transition:0.5s;
 }
-.card:hover .text
+/* .card:hover .text
 {
   color:#fff;
-}
+} */
 svg
 {
   position:relative;
@@ -324,7 +322,7 @@ svg circle:nth-child(2)
   border-radius: 50px;
   background: #f2f3f5;
   height: 56px;
-  width: 50%;
+  width: 100%;
   overflow: hidden;
   transition: 0.3s;
 }
@@ -473,7 +471,7 @@ svg circle:nth-child(2)
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
