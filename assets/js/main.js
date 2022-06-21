@@ -87,6 +87,18 @@
     onscroll(document, toggleBacktotop)
   }
 
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+      $(".nav-menu a span").hide();
+    }else{
+      $(".nav-menu a span").show();
+    }
+  }
+  
+  var x = window.matchMedia("(max-width: 992px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction)
+
   /**
    * Mobile nav toggle
    */
