@@ -285,7 +285,7 @@ svg circle:nth-child(2)
     border-right: 1px solid #e6e9ec;
     width: 90%;
     height: max-content;
-    margin: 5%;
+    margin: 5% 5% 8% 5%;
     border: none;
     border-radius: 25px;
     top: auto;
@@ -376,8 +376,8 @@ svg circle:nth-child(2)
   display: flex;
   justify-content: center;
   position: fixed;
-  bottom: 0;
-  z-index: 99999999999;
+  bottom: 3px;
+  z-index: 9999;
   width: 100%;
   height: max-content;
 }
