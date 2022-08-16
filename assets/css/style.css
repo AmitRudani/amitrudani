@@ -358,8 +358,12 @@ svg circle:nth-child(2)
   background: #48dd17;
 }
 
-.nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
-  color: #fff;
+.nav-menu .active span, .nav-menu .active:focus span {
+  color: #48dd17;
+}
+
+.nav-menu a:hover span, .nav-menu li:hover > a span{
+  color: #fff
 }
 .nav-menu a:hover, .nav-menu li:hover > a {
   width: 100%;
