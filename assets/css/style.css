@@ -143,37 +143,37 @@ svg circle:nth-child(2)
 }
 .card:nth-child(1) svg circle:nth-child(2)
 {
-  stroke-dashoffset:calc(440 - (440 * 95) / 100);
+  stroke-dashoffset:calc(440 - (440 * 90) / 100);
   stroke:#00ff43;
 }
 
 .card:nth-child(2) svg circle:nth-child(2)
 {
-  stroke-dashoffset:calc(440 - (440 * 90) / 100);
+  stroke-dashoffset:calc(440 - (440 * 70) / 100);
   stroke:#ff00ea;
 }
 
 .card:nth-child(3) svg circle:nth-child(2)
 {
-  stroke-dashoffset:calc(440 - (440 * 75) / 100);
+  stroke-dashoffset:calc(440 - (440 * 85) / 100);
   stroke:#00ffea;
 }
 
 .card2:nth-child(1) svg circle:nth-child(2)
 {
-  stroke-dashoffset:calc(440 - (440 * 70) / 100);
+  stroke-dashoffset:calc(440 - (440 * 90) / 100);
   stroke:#ee0000;
 }
 
 .card2:nth-child(2) svg circle:nth-child(2)
 {
-  stroke-dashoffset:calc(440 - (440 * 90) / 100);
+  stroke-dashoffset:calc(440 - (440 * 70) / 100);
   stroke:#ffe600;
 }
 
 .card2:nth-child(3) svg circle:nth-child(2)
 {
-  stroke-dashoffset:calc(440 - (440 * 55) / 100);
+  stroke-dashoffset:calc(440 - (440 * 95) / 100);
   stroke:#ff7b00;
 }
 
